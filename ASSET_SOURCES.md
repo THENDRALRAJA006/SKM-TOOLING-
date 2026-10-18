@@ -11,14 +11,20 @@ attribution requirements, and local file paths.
 | Field | Value |
 |---|---|
 | **Asset Name** | High-Precision CNC Machine Operation |
-| **Local Video Path** | `frontend/public/videos/cnc-machining.mp4` |
-| **Local Poster Path** | `frontend/public/images/cnc-machining-poster.jpg` |
+| **Web-Optimised Path** | `frontend/public/videos/cnc-machining.mp4` |
+| **Original Backup Path** | `frontend/public/videos/cnc-machining-original.mp4` |
+| **Poster Path (WebP)** | `frontend/public/images/cnc-machining-poster.webp` |
+| **Poster Path (JPEG)** | `frontend/public/images/cnc-machining-poster.jpg` |
 | **Source URL** | https://www.pexels.com/video/high-precision-cnc-machine-operation-31751330/ |
 | **Platform** | Pexels |
-| **Resolution** | 2560 x 1440 (16:9 Widescreen) |
+| **Target Resolution** | 1920 x 1080 (Full HD, 16:9 Widescreen) |
+| **Codec / Container** | H.264 (High Profile @ L4.1), yuv420p, +faststart, MP4 |
+| **Audio** | Stripped (`-an`) for zero autoplay conflict & bandwidth saving |
+| **File Size (Original)** | 14,672,817 bytes (~13.99 MB) |
+| **File Size (Compressed)** | 3,759,255 bytes (~3.59 MB, **74.4% reduction**) |
 | **FPS / Duration** | 25.0 fps, 13.88s |
 | **Licence** | Pexels Free Licence (Free for commercial and personal use, no attribution required) |
-| **Status** | ✅ **DOWNLOADED & VERIFIED** — integrated and tested in live hero banner. |
+| **Status** | ✅ **OPTIMISED, VERIFIED & BACKED UP** |
 
 ---
 

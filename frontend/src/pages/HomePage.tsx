@@ -50,7 +50,7 @@ function HeroSection() {
           muted
           loop
           playsInline
-          poster="/images/cnc-machining-poster.jpg"
+          poster="/images/cnc-machining-poster.webp"
           preload="metadata"
         >
           <source src="/videos/cnc-machining.mp4" type="video/mp4" />
