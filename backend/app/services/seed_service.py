@@ -11,15 +11,17 @@ logger = logging.getLogger(__name__)
 DEFAULT_SETTINGS = [
     ("company_name", "SKM Tooling Center", "Public company name displayed on the website"),
     ("company_tagline", "Precision Tooling. Engineered for Performance.", "Hero tagline"),
-    ("company_email", "", "Public contact email address — provide your verified email"),
-    ("company_phone", "", "Public contact phone number — provide your verified phone number"),
-    ("company_address", "", "Public company address — provide your verified address"),
+    ("company_email", "skmtoolingcenter@gmail.com", "Public contact email address"),
+    ("company_phone", "+91 86674 74237", "Primary public contact phone number"),
+    ("company_phone_secondary", "+91 95664 93554", "Secondary public contact phone number"),
+    ("whatsapp_number", "+91 86674 74237", "Official WhatsApp contact number"),
+    ("company_address", "No. 7/174-1B, Near Govt. Hr. School, Rajeswari Layout, Begapalli (PO), SIPCOT, Phase 3, Hosur – 635126, Krishnagiri, Tamil Nadu, India.", "Public company address"),
     ("company_description", "SKM Tooling Center specialises in precision tooling, mould components, and engineered tooling solutions for demanding industrial applications.", "Company description for the About section"),
     ("seo_title", "SKM Tooling Center | Precision Industrial Tooling", "Website SEO title tag"),
     ("seo_description", "SKM Tooling Center delivers precision-engineered tooling components including core inserts, cavity plates, moulding tools, and case cover plates.", "Meta description"),
     ("twitter_handle", "", "Twitter/X handle (optional)"),
     ("linkedin_url", "", "LinkedIn page URL (optional)"),
-    ("enquiry_notification_email", "", "Email address to receive enquiry notifications (can differ from company_email)"),
+    ("enquiry_notification_email", "skmtoolingcenter@gmail.com", "Email address to receive enquiry notifications"),
 ]
 
 DEFAULT_PRODUCTS = [

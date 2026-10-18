@@ -46,7 +46,7 @@ class Settings(BaseSettings):
     SMTP_USER: str = ""
     SMTP_PASSWORD: str = ""
     SMTP_FROM: str = ""
-    ADMIN_EMAIL: str = ""
+    ADMIN_EMAIL: str = "skmtoolingcenter@gmail.com"
     EMAIL_ENABLED: bool = False
 
     # ------------------------------------------------------------------

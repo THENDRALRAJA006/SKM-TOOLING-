@@ -1,6 +1,7 @@
 import { Suspense, lazy, useEffect } from 'react'
 import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom'
 import { Toaster } from 'react-hot-toast'
+import FloatingWhatsApp from './components/common/FloatingWhatsApp'
 import './index.css'
 
 const Header = lazy(() => import('./components/layout/Header'))
@@ -52,6 +53,7 @@ function PublicLayout({ children }: { children: React.ReactNode }) {
         <Header />
       </Suspense>
       <main style={{ flex: 1 }}>{children}</main>
+      <FloatingWhatsApp />
       <Suspense fallback={null}>
         <Footer />
       </Suspense>
