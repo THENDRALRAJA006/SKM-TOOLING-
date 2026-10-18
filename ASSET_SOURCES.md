@@ -10,27 +10,15 @@ attribution requirements, and local file paths.
 ### Hero Background Video
 | Field | Value |
 |---|---|
-| **Asset Name** | CNC Machining Workshop Video |
-| **Intended Local Path** | `frontend/public/videos/cnc-machining.mp4` |
-| **Poster Image Path** | `frontend/public/images/cnc-machining-poster.webp` |
-| **Candidate Source 1** | https://www.pexels.com/video/industrial-machining-process-in-workshop-30409129/ |
-| **Candidate Source 2** | https://www.pexels.com/video/high-precision-cnc-machine-operation-31751330/ |
-| **Candidate Source 3** | https://www.pexels.com/video/high-tech-cnc-machine-in-modern-factory-30409127/ |
+| **Asset Name** | High-Precision CNC Machine Operation |
+| **Local Video Path** | `frontend/public/videos/cnc-machining.mp4` |
+| **Local Poster Path** | `frontend/public/images/cnc-machining-poster.jpg` |
+| **Source URL** | https://www.pexels.com/video/high-precision-cnc-machine-operation-31751330/ |
 | **Platform** | Pexels |
-| **Licence** | Pexels Free Licence (verify at point of download) |
-| **Attribution** | Not required by Pexels licence, but recommended: credit creator name |
-| **Status** | ⚠️ **MANUAL DOWNLOAD REQUIRED** — automated download was not possible. |
-
-**Manual download instructions:**
-1. Open one of the candidate source URLs above in a browser.
-2. Verify the footage is appropriate for an industrial tooling website.
-3. Review the Pexels licence on the page.
-4. Click the free download button and select an appropriate resolution (720p or 1080p).
-5. Save the file as `frontend/public/videos/cnc-machining.mp4`.
-6. Create a poster image (a good frame from the video) and save as `frontend/public/images/cnc-machining-poster.webp`.
-7. Update this document with the creator name, download date, and selected source URL.
-
-**Fallback:** Until the video is downloaded, the hero section will display the poster image placeholder. The site is fully functional without the video.
+| **Resolution** | 2560 x 1440 (16:9 Widescreen) |
+| **FPS / Duration** | 25.0 fps, 13.88s |
+| **Licence** | Pexels Free Licence (Free for commercial and personal use, no attribution required) |
+| **Status** | ✅ **DOWNLOADED & VERIFIED** — integrated and tested in live hero banner. |
 
 ---
 

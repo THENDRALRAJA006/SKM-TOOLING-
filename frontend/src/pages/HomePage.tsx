@@ -41,7 +41,7 @@ function HeroSection() {
 
   return (
     <section className="hero-section" ref={heroRef} aria-label="Hero">
-      {/* Background video */}
+      {/* Background video & overlays */}
       <div className="hero-video-wrap" aria-hidden="true">
         <video
           ref={videoRef}
@@ -50,17 +50,15 @@ function HeroSection() {
           muted
           loop
           playsInline
-          poster="/images/cnc-machining-poster.webp"
-          preload="none"
+          poster="/images/cnc-machining-poster.jpg"
+          preload="metadata"
         >
           <source src="/videos/cnc-machining.mp4" type="video/mp4" />
         </video>
         <div className="hero-overlay" />
+        <div className="hero-tech-grid" />
         <div className="hero-gradient-bottom" />
       </div>
-
-      {/* Technical grid decoration */}
-      <div className="tech-grid" aria-hidden="true" />
 
       {/* Content */}
       <div className="container hero-content">
